@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <div>
     <router-view/>
+    </div>
+    <footer-bar class="footer"></footer-bar>
   </div>
 </template>
 
 <script>
+import Footer from './views/custom/FooterBar'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'footer-bar':Footer
+  }
 }
 </script>
 
