@@ -9,14 +9,38 @@
 export default {
   data () {
     return {
-    };
+        tabBar:{
+            color: "#a9b7b7",
+            selectedColor: "#11cd6e",
+            "borderStyle":"white",
+            list: [{
+            selectedIconPath: "images/111.png",
+            iconPath: "images/11.png",
+            pagePath: "pages/index/index",
+            text: "首页"
+            }, {
+            selectedIconPath: "images/221.png",
+            iconPath: "images/22.png",
+            pagePath: "pages/logs/logs",
+            text: "日志"
+            }, {
+            selectedIconPath: "images/331.png",
+            iconPath: "images/33.png",
+            pagePath: "pages/test/test",
+            text: "开心测试"
+            }, {
+            selectedIconPath: "images/331.png",
+            iconPath: "images/33.png",
+            pagePath: "pages/test/test",
+            text: "开心测试"
+            }]
+        },
+   };
   },
 
   components: {},
 
   computed: {},
-
-  mounted: {},
 
   methods: {}
 }
