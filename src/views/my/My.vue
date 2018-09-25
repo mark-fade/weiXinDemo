@@ -1,6 +1,8 @@
 <!--  -->
 <template>
-  <div></div>
+  <div>
+    <h1>我</h1>
+  </div>
 </template>
 
 <script>
@@ -10,13 +12,6 @@ export default {
     };
   },
 
-  components: {},
-
-  computed: {},
-
-  mounted: {},
-
-  methods: {}
 }
 
 </script>

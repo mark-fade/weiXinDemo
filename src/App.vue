@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <header-app></header-app>
     <div>
     <router-view/>
     </div>
@@ -9,11 +10,12 @@
 
 <script>
 import Footer from './views/custom/FooterBar'
-
+import HeaderApp from './views/custom/HeaderApp'
 export default {
   name: 'App',
   components: {
-    'footer-bar':Footer
+    'footer-bar':Footer,
+    'header-app':HeaderApp
   }
 }
 </script>

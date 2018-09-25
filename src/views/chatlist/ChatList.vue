@@ -1,6 +1,8 @@
 <!--  -->
 <template>
-  <div></div>
+  <div>
+    <img src="../../assets/image/contact_male.png"/>
+  </div>
 </template>
 
 <script>
@@ -10,13 +12,6 @@ export default {
     };
   },
 
-  components: {},
-
-  computed: {},
-
-  mounted: {},
-
-  methods: {}
 }
 
 </script>
