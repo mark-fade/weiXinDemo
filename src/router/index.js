@@ -10,6 +10,7 @@ const my = resolve => require(['@/views/my/My'], resolve)
 Vue.use(Router)
 
 export default new Router({
+  base: '/cwx/', 
   routes: [
     {path:'/ChatList',component:chatList},
     {path:'/Find',component:find},

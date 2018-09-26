@@ -47,11 +47,11 @@ export default {
             this.img_cl = require("../../assets/image/sao-yi-sao/scan-book_hl.png");
             break;
           case "friendList":
-            this.$router.push("/Find");
+            this.$router.push("/FriendList");
             this.img_fl = require("../../assets/image/sao-yi-sao/scan-qr-code_hl.png");
             break;
           case "find":
-            this.$router.push("/FriendList");
+            this.$router.push("/Find");
             this.img_f = require("../../assets/image/sao-yi-sao/scan-street_hl.png");
             break;
           case "my":

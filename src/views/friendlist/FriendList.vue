@@ -1,7 +1,7 @@
 <!--  -->
 <template>
-  <div>
-    <img src="/static/image/mobile.png"/>
+  <div id="friendList">
+    
   </div>
 </template>
 
@@ -14,6 +14,11 @@ export default {
 
 }
 
+
 </script>
 <style lang='scss' scoped>
+#friendList{
+  height: 100%;
+  width: 100%;
+}
 </style>
